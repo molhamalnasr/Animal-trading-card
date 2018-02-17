@@ -6,7 +6,7 @@ body{
 }
 div.container{
     width: 300px;
-    margin: 10vh auto;
+    margin: 9vh auto;
     border: 1px solid #000;
     padding: 10px;
     text-align: justify;
@@ -121,4 +121,10 @@ li span:first-child{
 
 article a{
     color: #000;
+}
+div.Resources a{
+    float: right;
+    color: #FFF;
+    margin-right: 5px;
+    text-decoration: none;
 }
