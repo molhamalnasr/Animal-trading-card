@@ -35,6 +35,7 @@ div.container-img .img{
     background-image: url(imgs/red-panda.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    will-change: transform;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     -o-transition: all .5s;
@@ -52,7 +53,7 @@ div.container-img .img{
     background-color: rgba(52,73,94,0.75);
 }
 
-a{
+.img a{
     display: none;
 /*    text-decoration: none;*/
     color: #fff;
@@ -103,6 +104,7 @@ ul{
 }
 
 li{
+    will-change: transform;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     -o-transition: all .5s;
@@ -117,6 +119,6 @@ li span:first-child{
     font-weight: bold;
 }
 
-article p{
-
+article a{
+    color: #000;
 }
