@@ -1,6 +1,8 @@
 body{
     padding: 0px;
     margin: 0px;
+    background: radial-gradient(white 20%, black);
+    cursor: default;
 }
 div.container{
     width: 300px;
@@ -8,6 +10,8 @@ div.container{
     border: 1px solid #000;
     padding: 10px;
     text-align: justify;
+    box-shadow: 4px 4px 40px #000;
+    background: linear-gradient(to bottom right, rgba(92, 155, 219, 0.81), #a2a853 80%);
 }
 
 h1{
@@ -19,6 +23,7 @@ div.container-img{
     height: 200px;
     margin: 0 0 10px 0;
     border: 1px solid #000;
+    border-radius: 4px;
     position: relative;
     overflow: hidden;
 }
@@ -49,7 +54,7 @@ div.container-img .img{
 
 a{
     display: none;
-    text-decoration: none;
+/*    text-decoration: none;*/
     color: #fff;
     font-family: sans-serif;
     font-size: 150%;
@@ -95,6 +100,17 @@ ul{
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+li{
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+li:hover, li:focus{
+    margin-left: 5px;
 }
 
 li span:first-child{
